@@ -82,7 +82,7 @@ const Projects = () => {
         <h2 className="text-4xl font-bold mb-4 text-center">Work Experience</h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Proven track record of delivering enterprise integration solutions for 
-          Fortune 500 companies across various industries.
+          clients across various industries.
         </p>
 
         <div className="space-y-6">
