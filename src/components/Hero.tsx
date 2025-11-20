@@ -72,19 +72,7 @@ const Hero = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
-            <Button 
-              size="icon" 
-              variant="ghost" 
-              className="hover:text-primary"
-              asChild
-            >
-              <a 
-                href="mailto:trinabanerjee08@hotmail.com"
-                aria-label="Email"
-              >
-                <Mail className="h-5 w-5" />
-              </a>
-            </Button>
+            
           </div>
         </div>
       </div>
