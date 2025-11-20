@@ -114,7 +114,11 @@ const Skills = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
-                Building Cloud-Native and Multicloud Applications - IBM
+                Certified ScrumMaster (CSM)- Scrum Alliance
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">•</span>
+                Introduction to Generative AI - Google Cloud Skills Boost
               </li>
             </ul>
           </Card>
