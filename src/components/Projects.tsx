@@ -10,7 +10,7 @@ const Projects = () => {
       period: "Jun 2023 – Present",
       role: "Lead, Integration",
       description:
-        "Led the transition from monolithic to microservices architecture leveraging MuleSoft platform. Developed scalable RESTful APIs on Anypoint Platform, reducing deployment time and improving system reliability through comprehensive testing.",
+        "Led the transition from monolithic to microservices architecture leveraging IBM Integration Bus platform. Developed scalable RESTful APIs on Anypoint Platform, reducing deployment time and improving system reliability through comprehensive testing.",
       tags: ["MuleSoft", "RESTful APIs", "Microservices", "Anypoint Platform", "Agile"],
       achievements: [
         "Led architecture transition to microservices",
