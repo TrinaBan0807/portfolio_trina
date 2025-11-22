@@ -15,7 +15,15 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Message sent! I'll get back to you soon.");
+    
+    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    
+    window.location.href = `mailto:trinabanerjee08@hotmail.com?subject=${subject}&body=${body}`;
+    
+    toast.success("Opening your email client...");
     setFormData({ name: "", email: "", message: "" });
   };
 
